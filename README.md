@@ -1,4 +1,4 @@
-# ![Logo](logo.svg) Heimatforscher
+# <img src="logo.svg" width="50" height="50"> Heimatforscher
 **Heimatforscher** ist eine Datenbank zum zentralen Archivieren von historischen Dokumenten, Personen und Orten.  
 Sie wird entwickelt für die _Heimatforscher Bad Bentheim_.
 
@@ -9,4 +9,7 @@ Sie wird entwickelt für die _Heimatforscher Bad Bentheim_.
 ```
 In dem `server`- und `client`-Verzeichnis befindet sich der jeweilige Build-Script.  
 - zum Kompilieren des Servers wird `g++` verwendet.
-- zum Kompilieren des Clients wird `i686-w64-mingw32-g++` verwendet.
+- zum Kompilieren des (Windows-)Clients wird `i686-w64-mingw32-g++` verwendet.
+
+## Abhängigkeiten
+- der Server wird mithilfe von [cpp-httplib](https://github.com/yhirose/cpp-httplib) betrieben.
