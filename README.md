@@ -21,4 +21,4 @@ Sollte ein Fehler auftreten, bricht der Skript ab.
 Hinweis: Der Server wird asynchron ausgeführt.
 
 ## Abhängigkeiten
-- der Server wird mithilfe von [cpp-httplib](https://github.com/yhirose/cpp-httplib) betrieben.
+- [cpp-httplib](https://github.com/yhirose/cpp-httplib)

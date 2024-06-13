@@ -1,3 +1,3 @@
 #!/bin/sh
 
-g++ *.cpp -o forscher
+g++ *.cpp -std=c++17 -o forscher
