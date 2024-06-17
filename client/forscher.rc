@@ -1,1 +1,25 @@
-ForscherIcon ICON "../logo.ico"
+icon ICON "../logo.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704E4"
+        BEGIN
+            VALUE "CompanyName", "Heimatforscher"
+            VALUE "FileDescription", "Datenbank Client der Heimatforscher"
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "heimatforscher_client"
+            VALUE "LegalCopyright", "Heimatforscher"
+            VALUE "OriginalFilename", "forscher.exe"
+            VALUE "ProductName", "Heimatforscher Client"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1252
+    END
+END
