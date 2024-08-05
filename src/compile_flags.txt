@@ -1,0 +1,2 @@
+-I../build/src
+-std=c++20
