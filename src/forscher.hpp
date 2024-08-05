@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdexcept>
 
-#include <httplib.h>
-#include <web-src.h>
+#include <httplib.hpp>
+#include <web-src.hpp>
 
 #define SERVER_PORT 8080
 
